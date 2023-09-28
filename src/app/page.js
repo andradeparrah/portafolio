@@ -20,7 +20,7 @@ export default function Home() {
               As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. Explore my latest projects and articles, showcasing my expertise in React.js and web development.
 
               </p>
-              <Link href='/assets/docs/CV.pdf' className='flex items-center justify-center bg-slate-950 text-slate-100 p-2 rounded-lg text-lg hover:bg-slate-100 hover:text-slate-900 ' target={'_blank'} download={true}>
+              <Link href='/assets/docs/CV.pdf' className='flex items-center justify-center bg-indigo-600 text-slate-100 p-2 rounded-lg text-lg font-bold hover:bg-indigo-400 font-bold ' target={'_blank'} download={true}>
                 Curriculum
               </Link>
           </div>
