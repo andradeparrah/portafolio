@@ -5,11 +5,11 @@ import React from 'react'
 const page = () => {
   return (
     <>
-    <h1 className='w-full h-full px-32 py-8 text-4xl font-bold text-center'>About Me</h1>
+    <h1 className="w-full h-full px-32 py-8 text-4xl font-bold text-center">About Me</h1>
 
-    <p className='w-full h-full px-32 py-8 text-center'>Hello, I'm Horacio Andrade, a 29-year-old web developer with a unique blend of skills and experience. I hold a degree in Industrial Engineering and have a background in operations, which has provided me with a strong foundation in problem-solving and process optimization.</p>
+    <p className="w-full h-full px-32 py-8 text-center" >Hello, Im Horacio Andrade, a 29-year-old web developer with a unique blend of skills and experience. I hold a degree in Industrial Engineering and have a background in operations, which has provided me with a strong foundation in problem-solving and process optimization.</p>
 
-    <p className='w-full h-full px-32 py- text-center'>Over the years, I've seamlessly merged my engineering mindset with my passion for web development, creating a dynamic skill set that allows me to approach coding challenges with a fresh perspective. My journey in the world of web development has led me to specialize in a wide range of technologies, including HTML, CSS, Tailwind CSS, Bootstrap, Node.js, Next.js, and React.</p>
+    <p className='w-full h-full px-32 text-center'>Over the years, Ive seamlessly merged my engineering mindset with my passion for web development, creating a dynamic skill set that allows me to approach coding challenges with a fresh perspective. My journey in the world of web development has led me to specialize in a wide range of technologies, including HTML, CSS, Tailwind CSS, Bootstrap, Node.js, Next.js, and React.</p>
 
     <h2 className='w-full h-full px-32 py-8 text-4xl font-bold text-center'>Skills</h2> 
         <div className='w-full h-full px-96 grid grid-cols-4 gap-2'>
@@ -65,13 +65,13 @@ const page = () => {
             img="https://images.credly.com/size/340x340/images/791d0469-ca15-4bc9-b9b3-2b8dca821b62/image.png" alt="badge"
           />  
           <Cards
-            img="https://images.credly.com/size/340x340/images/71ed1274-3d7c-40f4-9194-e464643719e3/image.png" alt="badge"
+            img="https://images.credly.com/size/340x340/images/71ed1274-3d7c-40f4-9194-e464643719e3/image.png" alt="badge2"
           />  
           <Cards
-            img="https://images.credly.com/size/340x340/images/50a7358c-80d1-4a5d-a1d7-a9e0997de2be/image.png" alt="badge"
+            img="https://images.credly.com/size/340x340/images/50a7358c-80d1-4a5d-a1d7-a9e0997de2be/image.png" alt="badge3"
           />  
           <Cards
-            img="https://images.credly.com/size/340x340/images/5a6985ec-c5f8-4c59-8668-8278971a368e/image.png" alt="badge"
+            img="https://images.credly.com/size/340x340/images/5a6985ec-c5f8-4c59-8668-8278971a368e/image.png" alt="badge4"
           />  
 
           </div> 
