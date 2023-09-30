@@ -12,7 +12,7 @@ export default function FooterWithSocialMediaIcons() {
             <Footer.Brand
               alt="Flowbite Logo"
               href="https://flowbite.com"
-              name="Flowbite"
+              name="Horacio Andrade"
               src="https://flowbite.com/docs/images/logo.svg"
             />
           </div>
@@ -75,7 +75,7 @@ export default function FooterWithSocialMediaIcons() {
               icon={BsGithub}
             />
             <Footer.Icon
-              href="#"
+              href="https://www.linkedin.com/in/horacio-andrade-b7510a133/"
               target="_blank"
               icon={BsLinkedin}
             />

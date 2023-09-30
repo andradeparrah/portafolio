@@ -5,10 +5,11 @@ import { AnimatedImg } from '@/components/AnimatedImg'
 
 
 
+
 export default function Home() {
   return (
     <>
-      <div className='w-full h-full p-32 '>
+      <div className='w-full h-full px-32 '>
         <main className='flex items-center justify-between w-full '>
           
           <AnimatedImg src='https://cdn.leonardo.ai/users/9a01fe03-e38d-4147-9504-334e27fe8920/generations/cd0c3a2a-dd03-4a69-84b3-1cc20907273d/DreamShaper_v7_Design_an_animestyle_male_character_with_glasse_3.jpg'/>
@@ -24,8 +25,6 @@ export default function Home() {
                 Curriculum
               </Link>
           </div>
-
-
         </main>
 
       </div>
