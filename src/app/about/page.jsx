@@ -5,7 +5,13 @@ import React from 'react'
 const page = () => {
   return (
     <>
-    <h1 className='w-full h-full px-32 py-8 text-4xl font-bold text-center'>Skills</h1> 
+    <h1 className='w-full h-full px-32 py-8 text-4xl font-bold text-center'>About Me</h1>
+
+    <p className='w-full h-full px-32 py-8 text-center'>Hello, I'm Horacio Andrade, a 29-year-old web developer with a unique blend of skills and experience. I hold a degree in Industrial Engineering and have a background in operations, which has provided me with a strong foundation in problem-solving and process optimization.</p>
+
+    <p className='w-full h-full px-32 py- text-center'>Over the years, I've seamlessly merged my engineering mindset with my passion for web development, creating a dynamic skill set that allows me to approach coding challenges with a fresh perspective. My journey in the world of web development has led me to specialize in a wide range of technologies, including HTML, CSS, Tailwind CSS, Bootstrap, Node.js, Next.js, and React.</p>
+
+    <h2 className='w-full h-full px-32 py-8 text-4xl font-bold text-center'>Skills</h2> 
         <div className='w-full h-full px-96 grid grid-cols-4 gap-2'>
           <Cards
             img="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png" alt="HTML"
@@ -42,23 +48,32 @@ const page = () => {
           <Cards
             img="https://images.ctfassets.net/piwi0eufbb2g/4Z0rRL8R7hcHJhmSNoePV3/005e4dd6d10c7ffb1156662c171ea65e/express_img.jpg?w=1200&h=630" alt="expressjs"
           />   
-          </div>
+      </div>
+        <ul className='w-full h-full px-32 list-disc py-2'>
+          <li className='py-2'>Full-Stack Proficiency: I am well-versed in both front-end and back-end development, enabling me to create cohesive and efficient web solutions.</li>
+          <li className='py-2'>Responsive Design: Crafting visually appealing and user-friendly websites using HTML, CSS, and Bootstrap is my forte. I understand the importance of a responsive design for an optimal user experience across all devices.</li>
+          <li className='py-2'>Modern JavaScript: I leverage the power of React and Next.js to build interactive and dynamic web applications that are not only visually engaging but also highly functional.</li>
+          <li className='py-2'>Efficient Back-End: With Node.js, I develop robust server-side applications, ensuring that your web projects are as performant as they are beautiful.</li>
+          <li className='py-2'>Problem Solver: My background in industrial engineering equips me with analytical thinking and problem-solving skills, allowing me to identify and address challenges efficiently.</li>
+        </ul>
+
           
-          <h2 className='w-full h-full px-32 py-12 text-4xl font-bold text-center'>Badges</h2>   
+          <h3 className='w-full h-full px-32 py-12 text-4xl font-bold text-center'>Badges</h3>   
 
           <div className='w-full h-full px-96 flex gap-8'>
           <Cards
-            img="https://images.credly.com/size/340x340/images/791d0469-ca15-4bc9-b9b3-2b8dca821b62/image.png" alt="expressjs"
+            img="https://images.credly.com/size/340x340/images/791d0469-ca15-4bc9-b9b3-2b8dca821b62/image.png" alt="badge"
           />  
-                    <Cards
-            img="https://images.credly.com/size/340x340/images/71ed1274-3d7c-40f4-9194-e464643719e3/image.png" alt="expressjs"
+          <Cards
+            img="https://images.credly.com/size/340x340/images/71ed1274-3d7c-40f4-9194-e464643719e3/image.png" alt="badge"
           />  
-                    <Cards
-            img="https://images.credly.com/size/340x340/images/50a7358c-80d1-4a5d-a1d7-a9e0997de2be/image.png" alt="expressjs"
+          <Cards
+            img="https://images.credly.com/size/340x340/images/50a7358c-80d1-4a5d-a1d7-a9e0997de2be/image.png" alt="badge"
           />  
-                              <Cards
-            img="https://images.credly.com/size/340x340/images/5a6985ec-c5f8-4c59-8668-8278971a368e/image.png" alt="expressjs"
+          <Cards
+            img="https://images.credly.com/size/340x340/images/5a6985ec-c5f8-4c59-8668-8278971a368e/image.png" alt="badge"
           />  
+
           </div> 
           
                 
