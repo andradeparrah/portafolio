@@ -6,11 +6,11 @@ import { AnimatedImg } from '@/components/AnimatedImg'
 export default function Home() {
   return (
     <>
-      <div className='w-full h-full px-32 '>
-        <main className='flex items-center justify-between w-full '>
+      <div className=' w-full h-full p-10  '>
+        <main className='flex items-center justify-between w-full flex-wrap '>
           
           <AnimatedImg src='https://cdn.leonardo.ai/users/9a01fe03-e38d-4147-9504-334e27fe8920/generations/cd0c3a2a-dd03-4a69-84b3-1cc20907273d/DreamShaper_v7_Design_an_animestyle_male_character_with_glasse_3.jpg'/>
-          <div className='w-1/2'>
+          <div className='w-full md:w-1/2 p-3'>
               <AnimatedText text={'Turning Vision Into Reality With Code And Design.'}/>
               
               <p className='my-4 font-medium text-base '>

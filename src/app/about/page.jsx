@@ -4,15 +4,15 @@ import React from 'react'
 
 const page = () => {
   return (
-    <>
+    <section className=''>
     <h1 className="w-full h-full px-32 py-8 text-4xl font-bold text-center">About Me</h1>
 
-    <p className="w-full h-full px-32 py-8 text-center" >Hello, Im Horacio Andrade, a 29-year-old web developer with a unique blend of skills and experience. I hold a degree in Industrial Engineering and have a background in operations, which has provided me with a strong foundation in problem-solving and process optimization.</p>
+    <p className="py-8 px-10 text-center" >Hello, Im Horacio Andrade, a 29-year-old web developer with a unique blend of skills and experience. I hold a degree in Industrial Engineering and have a background in operations, which has provided me with a strong foundation in problem-solving and process optimization.</p>
 
-    <p className='w-full h-full px-32 text-center'>Over the years, Ive seamlessly merged my engineering mindset with my passion for web development, creating a dynamic skill set that allows me to approach coding challenges with a fresh perspective. My journey in the world of web development has led me to specialize in a wide range of technologies, including HTML, CSS, Tailwind CSS, Bootstrap, Node.js, Next.js, and React.</p>
+    <p className='py-8 px-10 text-center'>Over the years, Ive seamlessly merged my engineering mindset with my passion for web development, creating a dynamic skill set that allows me to approach coding challenges with a fresh perspective. My journey in the world of web development has led me to specialize in a wide range of technologies, including HTML, CSS, Tailwind CSS, Bootstrap, Node.js, Next.js, and React.</p>
 
     <h2 className='w-full h-full px-32 py-8 text-4xl font-bold text-center'>Skills</h2> 
-        <div className='w-full h-full px-96 grid grid-cols-4 gap-2'>
+        <div className='py-8 px-20 grid grid-cols-4'>
           <Cards
             img="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png" alt="HTML"
           />
@@ -49,7 +49,7 @@ const page = () => {
             img="https://images.ctfassets.net/piwi0eufbb2g/4Z0rRL8R7hcHJhmSNoePV3/005e4dd6d10c7ffb1156662c171ea65e/express_img.jpg?w=1200&h=630" alt="expressjs"
           />   
       </div>
-        <ul className='w-full h-full px-32 list-disc py-2'>
+        <ul className='py-8 px-10 list-disc'>
           <li className='py-2'>Full-Stack Proficiency: I am well-versed in both front-end and back-end development, enabling me to create cohesive and efficient web solutions.</li>
           <li className='py-2'>Responsive Design: Crafting visually appealing and user-friendly websites using HTML, CSS, and Bootstrap is my forte. I understand the importance of a responsive design for an optimal user experience across all devices.</li>
           <li className='py-2'>Modern JavaScript: I leverage the power of React and Next.js to build interactive and dynamic web applications that are not only visually engaging but also highly functional.</li>
@@ -77,7 +77,7 @@ const page = () => {
           </div> 
           
                 
-    </>
+    </section>
   )
 }
 

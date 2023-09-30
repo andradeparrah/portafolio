@@ -20,7 +20,7 @@ const desdeIzquierda={
 export const AnimatedImg = ({src}) => {
   return (
     <>
-              <motion.div initial='initial' animate='animate' variants={desdeIzquierda} className='w-1/2'>
+              <motion.div initial='initial' animate='animate' variants={desdeIzquierda} className='w-full md:w-1/2 '>
             <Image src={src} width="500" height="500" alt='post'/>
           </motion.div>
     </>

@@ -6,7 +6,7 @@ import { BsLinkedin, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
 export default function FooterWithSocialMediaIcons() {
   return (
     <Footer container>
-      <div className="w-full h-full px-32">
+      <div className="w-full h-full p-10 ">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
             <Footer.Brand
