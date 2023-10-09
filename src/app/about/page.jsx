@@ -60,7 +60,7 @@ const page = () => {
           
           <h3 className='w-full h-full px-32 py-12 text-4xl font-bold text-center'>Badges</h3>   
 
-          <div className='w-full h-full px-96 flex gap-8'>
+          <div className='py-8 px-20 grid grid-cols-4'>
           <Cards
             img="https://images.credly.com/size/340x340/images/791d0469-ca15-4bc9-b9b3-2b8dca821b62/image.png" alt="badge"
           />  
